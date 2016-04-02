@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: M_OceanTemp
+  m_Shader: {fileID: 4800000, guid: 38f91c9e5824bd44da04357b0fb0df8b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _Caustic
+        second:
+          m_Texture: {fileID: 2800000, guid: adf25d2ae4a45be42bfe8042f4f301a5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Caustic_1
+        second:
+          m_Texture: {fileID: 2800000, guid: adf25d2ae4a45be42bfe8042f4f301a5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Caustic_2
+        second:
+          m_Texture: {fileID: 2800000, guid: adf25d2ae4a45be42bfe8042f4f301a5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Opacity
+        second: 0.8
+      data:
+        first:
+          name: _TilingWave
+        second: 100
+      data:
+        first:
+          name: _QuantitedeTesselation
+        second: 20
+      data:
+        first:
+          name: _Tiling
+        second: 20
+      data:
+        first:
+          name: _Intensiterdesvagues
+        second: 1
+      data:
+        first:
+          name: _IntensiterFractal
+        second: 2
+      data:
+        first:
+          name: _Foamammount
+        second: 0.2
+    m_Colors:
+      data:
+        first:
+          name: _DarkColorWater
+        second: {r: 0, g: 0.3764706, b: 0.43137255, a: 1}
+      data:
+        first:
+          name: _FoamColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _LightColorWater
+        second: {r: 0.26666668, g: 0.9529412, b: 0.8980392, a: 1}

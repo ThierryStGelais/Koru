@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: M_Vegetation_2sided
+  m_Shader: {fileID: 4800000, guid: 80fddbfe0d3819f4696a28ab95aa400b, type: 3}
+  m_ShaderKeywords: _90DEGREEROTATION_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 2450
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 17e454001444b084d90af54a72973477, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 263aeffe735de0a478542528b5b38f40, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RoughnessTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetalicTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmmissiveTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _Brightness
+        second: 0
+      data:
+        first:
+          name: _NormalMapMultiplier
+        second: 0.5
+      data:
+        first:
+          name: _UseRoughnessTexture
+        second: 0
+      data:
+        first:
+          name: _RoughnessMutiplier
+        second: 1
+      data:
+        first:
+          name: _Roughness
+        second: 0.709
+      data:
+        first:
+          name: _UseMetalicTexture
+        second: 0
+      data:
+        first:
+          name: _UseEmmisiveTexture
+        second: 0
+      data:
+        first:
+          name: _EmmissiveMultiplier
+        second: 1
+      data:
+        first:
+          name: _RoughnessAdd
+        second: 0
+      data:
+        first:
+          name: _Vitesseduvent
+        second: 4
+      data:
+        first:
+          name: _Deformationduvent
+        second: 0.4
+      data:
+        first:
+          name: _TesselationAmmount
+        second: 1
+      data:
+        first:
+          name: _Frequenceduvent
+        second: 3
+      data:
+        first:
+          name: _90DegreeRotation
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Tint
+        second: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: M_ShadowP2
+  m_Shader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 6be5d989299a02c4493f403bf6229d2c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Caustic
+        second:
+          m_Texture: {fileID: 2800000, guid: adf25d2ae4a45be42bfe8042f4f301a5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Caustic_1
+        second:
+          m_Texture: {fileID: 2800000, guid: adf25d2ae4a45be42bfe8042f4f301a5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Caustic_2
+        second:
+          m_Texture: {fileID: 2800000, guid: adf25d2ae4a45be42bfe8042f4f301a5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Opacity
+        second: 0.8
+      data:
+        first:
+          name: _TilingWave
+        second: 1
+      data:
+        first:
+          name: _QuantitedeTesselation
+        second: 10
+      data:
+        first:
+          name: _Tiling
+        second: 1
+      data:
+        first:
+          name: _Intensiterdesvagues
+        second: 0.7
+      data:
+        first:
+          name: _IntensiterFractal
+        second: 2
+      data:
+        first:
+          name: _Foamammount
+        second: 0.1
+    m_Colors:
+      data:
+        first:
+          name: _DarkColorWater
+        second: {r: 0.003921569, g: 0.1058824, b: 0.2313726, a: 1}
+      data:
+        first:
+          name: _FoamColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _LightColorWater
+        second: {r: 0, g: 0.6, b: 0.5803922, a: 1}

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: M_FishGhost
+  m_Shader: {fileID: 4800000, guid: 1eba768f83ccd414da1140ac3cd87652, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: f19bc11dd463d2046a18ee489a4a30d5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: dd9f7bb5345a6e94e9d7a7fe5d41c644, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_8526
+        second:
+          m_Texture: {fileID: 2800000, guid: dd9f7bb5345a6e94e9d7a7fe5d41c644, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _Opacity
+        second: 1
+      data:
+        first:
+          name: _Gloss
+        second: 0.8
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0.048442904, g: 0.43865865, b: 0.8235294, a: 1}

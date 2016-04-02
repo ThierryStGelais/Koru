@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: M_BolleP1P2
+  m_Shader: {fileID: 4800000, guid: c26c04a35197e2444b1d00e3ec705e7b, type: 3}
+  m_ShaderKeywords: _TWOTARGETCOLOR_ON _TWOTARGETLINE_ON _USEROUGHNESSTEXTURE_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 2450
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: bf615599ab6f8c64ca0984670de2e093, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 7ee77772b1e574f4f8f220408104b49a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RoughnessTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 0fe83aae4750f02418747be065c58f68, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetalicTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmmissiveTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SeeTroughTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 6f23901eb6bb5a74abca7861569d30a2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _Brightness
+        second: 0
+      data:
+        first:
+          name: _NormalMapMultiplier
+        second: 1
+      data:
+        first:
+          name: _Roughness
+        second: 1
+      data:
+        first:
+          name: _UseRoughnessTexture
+        second: 1
+      data:
+        first:
+          name: _RoughnessMutiplier
+        second: 1
+      data:
+        first:
+          name: _RoughnessAdd
+        second: 0
+      data:
+        first:
+          name: _UseMetalicTexture
+        second: 0
+      data:
+        first:
+          name: _UseEmmisiveTexture
+        second: 0
+      data:
+        first:
+          name: _EmmissiveMultiplier
+        second: 1
+      data:
+        first:
+          name: _TwoTargetLine
+        second: 1
+      data:
+        first:
+          name: _TwoTargetColor
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Tint
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 0.5361024, g: 0.8602941, b: 0.164468, a: 1}
+      data:
+        first:
+          name: _RimColor2
+        second: {r: 0.7882354, g: 0.1254902, b: 0.7490196, a: 1}

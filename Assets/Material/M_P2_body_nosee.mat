@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: M_P2_body_nosee
+  m_Shader: {fileID: 4800000, guid: 5ff6b73835859894eb65eedde1f82197, type: 3}
+  m_ShaderKeywords: _USEROUGHNESSTEXTURE_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: bce8c3b7fb2e53e498e826bc57d9d508, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: e7f3625e93683e04c98a74ae58cce773, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RoughnessTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 220412a9335a9e14e95cf4a45823c76c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetalicTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmmissiveTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _Brightness
+        second: 0
+      data:
+        first:
+          name: _NormalMapMultiplier
+        second: 1
+      data:
+        first:
+          name: _UseRoughnessTexture
+        second: 1
+      data:
+        first:
+          name: _RoughnessMutiplier
+        second: 1.25
+      data:
+        first:
+          name: _Roughness
+        second: 1
+      data:
+        first:
+          name: _UseMetalicTexture
+        second: 0
+      data:
+        first:
+          name: _UseEmmisiveTexture
+        second: 0
+      data:
+        first:
+          name: _EmmissiveMultiplier
+        second: 1
+      data:
+        first:
+          name: _RoughnessAdd
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Tint
+        second: {r: 1, g: 1, b: 1, a: 1}
