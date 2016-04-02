@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cbb43d8796d64134487879854c0ba541
+timeCreated: 1451887211
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - SunTransform: {instanceID: 0}
+  - SunShaftsShader: {fileID: 4800000, guid: d3b1c8c1036784176946f5cfbfb7fe4c, type: 3}
+  - SimpleClearShader: {fileID: 4800000, guid: f688f89ed5eb847c5b19c934a0f1e772, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
