@@ -11,7 +11,7 @@ public class IntroVideo : MonoBehaviour {
     void Awake()
     {
         RawImage rim = GetComponent<RawImage>();
-        mt = (MovieTexture)rim.mainTexture;
+        mt = rim.mainTexture as MovieTexture;
     }
 
     // Use this for initialization
